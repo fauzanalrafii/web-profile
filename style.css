@@ -1,0 +1,78 @@
+html{
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.title{
+    background-color: rgb(78, 180, 144);
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center horizontally */
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 50px; /* Space between picture and description */
+}
+
+.desc {
+    text-align: left; /* Align description text to the left */
+    gap: 50px;
+}
+
+.profile h2 {
+    margin: 0;
+    color: #555;
+}
+
+.profile p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.about h2,
+.contact h2 {
+    margin-top: 20px;
+}
+
+.about{
+    padding: 40px;
+}
+
+.contact{
+    padding: 40px;
+}
+.about p,
+.contact p {
+    margin: 5px 0;
+    color: #777;
+}
